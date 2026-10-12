@@ -1,0 +1,19 @@
+##--find-links https://download.pytorch.org/whl/torch_stable.html
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+# dependencies
+torch==2.8.0+cu128
+torchvision==0.23+cu128
+torchmetrics==1.8.2
+lightning==2.5.5
+tqdm
+numpy
+matplotlib
+wandb
+pycocotools  # required by torchvision CocoDetection
+einops  # required by endofmlv
+pandas
+tabulate  # required by notebooks
+Pillow    # required by notebooks
+transformers==4.57.0
+timm==1.0.20  # required by surgenet and endovit

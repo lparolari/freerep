@@ -1,0 +1,16 @@
+# data and experiment outputs
+data/
+cache/
+output/
+wandb_logs/
+wandb/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# notebooks
+.ipynb_checkpoints/
